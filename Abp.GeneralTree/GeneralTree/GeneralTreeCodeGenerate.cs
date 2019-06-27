@@ -24,7 +24,7 @@ namespace Abp.GeneralTree
         {
             if (numbers.IsNullOrEmpty())
             {
-                return nul
+                return null
             }
 
             return numbers.Select(number => number.ToString(new string('0', _codeGenerateConfiguration.CodeLength)))
